@@ -117,6 +117,9 @@ croot
 cd external/llvm
 git push origin jb4.3
 croot
+cd external/srec
+git push origin jb4.3
+croot
 cd external/wpa_supplicant_8
 git push origin jb4.3
 

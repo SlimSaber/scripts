@@ -154,6 +154,11 @@ cd external/llvm
 git remote add origin git@github.com:SlimSaber/android_external_llvm.git
 git remote add upstream https://github.com/SlimRoms/android_external_llvm.git
 croot
+repo start jb4.3 external/srec
+cd external/srec
+git remote add origin git@github.com:SlimSaber/android_external_srec.git
+git remote add upstream https://github.com/SlimRoms/android_external_srec.git
+croot
 repo start jb4.3 external/wpa_supplicant_8
 cd external/wpa_supplicant_8
 git remote add origin git@github.com:SlimSaber/android_external_wpa_supplicant_8.git
@@ -279,3 +284,5 @@ repo start jb4.3 vendor/slim
 cd vendor/slim
 git remote add origin git@github.com:SlimSaber/vendor_slim.git
 git remote add upstream https://github.com/SlimRoms/vendor_slim.git
+
+croot

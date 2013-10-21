@@ -54,6 +54,9 @@ croot
 cd external/llvm
 git pull upstream jb4.3
 croot
+cd external/srec
+git pull upstream jb4.3
+croot
 cd external/wpa_supplicant_8
 git pull upstream jb4.3
 
