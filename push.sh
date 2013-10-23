@@ -167,6 +167,11 @@ croot
 cd hardware/ril
 git push origin jb4.3
 
+# System
+croot
+cd system/extras
+git push origin jb4.3
+
 # Kernel
 croot
 cd kernel/samsung/smdk4412
