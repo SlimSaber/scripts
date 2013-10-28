@@ -3,6 +3,14 @@
 . build/envsetup.sh
 
 ########################
+#       SlimSaber      #
+########################
+croot
+repo start jb4.3 scripts
+cd scripts
+git remote add origin git@github.com:SlimSaber/scripts.git
+
+########################
 #     Cyanogenmod      #
 ########################
 croot
