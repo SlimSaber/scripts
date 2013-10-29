@@ -239,6 +239,11 @@ repo start jb4.3 hardware/ril
 cd hardware/ril
 git remote add origin git@github.com:SlimSaber/hardware_ril.git
 git remote add upstream https://github.com/SlimRoms/hardware_ril.git
+croot
+repo start jb4.3 hardware/samsung
+cd hardware/samsung
+git remote add origin git@github.com:SlimSaber/hardware_samsung.git
+git remote add upstream https://github.com/SlimRoms/hardware_samsung.git
 
 # System
 croot

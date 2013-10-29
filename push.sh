@@ -166,6 +166,9 @@ git push origin jb4.3
 croot
 cd hardware/ril
 git push origin jb4.3
+croot
+cd hardware/samsung
+git push origin jb4.3
 
 # System
 croot

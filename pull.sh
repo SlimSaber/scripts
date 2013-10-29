@@ -103,6 +103,9 @@ git pull upstream jb4.3
 croot
 cd hardware/ril
 git pull upstream jb4.3
+croot
+cd hardware/samsung
+git pull upstream jb4.3
 
 # System
 croot

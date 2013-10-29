@@ -11,7 +11,6 @@ DEVICE="$1"
 SYNC="$2"
 THREADS="$3"
 CLEAN="$4"
-rdir=`pwd`
 
 # Time of build startup
 res1=$(date +%s.%N)
@@ -36,6 +35,8 @@ fi
 echo -e "${bldblu}Setting up build environment ${txtrst}"
 . build/envsetup.sh
 export USE_CCACHE=1
+export CCACHE_DIR="`pwd`/../.ccache"
+prebuilts/misc/linux-x86/ccache/ccache -M 15G
 
 # Lunch device
 echo -e "${bldblu}Lunching device... ${txtrst}"
