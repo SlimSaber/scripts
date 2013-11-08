@@ -12,6 +12,9 @@ croot
 cd external/skia
 git pull upstream cm-10.2
 croot
+cd external/sqlite
+git pull upstream cm-10.2
+croot
 cd external/webkit
 git pull upstream cm-10.2
 croot

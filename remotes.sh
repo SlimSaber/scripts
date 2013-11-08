@@ -24,6 +24,11 @@ cd external/skia
 git remote add origin git@github.com:SlimSaber/android_external_skia.git
 git remote add upstream https://github.com/CyanogenMod/android_external_skia.git
 croot
+repo start jb4.3 external/sqlite
+cd external/sqlite
+git remote add origin git@github.com:SlimSaber/android_external_sqlite.git
+git remote add upstream https://github.com/CyanogenMod/android_external_sqlite.git
+croot
 repo start jb4.3 external/webkit
 cd external/webkit
 git remote add origin git@github.com:SlimSaber/android_external_webkit.git
@@ -85,10 +90,6 @@ croot
 repo start jb4.3 external/qemu
 cd external/qemu
 git remote add origin git@github.com:SlimSaber/android_external_qemu.git
-croot
-repo start jb4.3 external/sqlite
-cd external/sqlite
-git remote add origin git@github.com:SlimSaber/android_external_sqlite.git
 croot
 repo start jb4.3 external/stlport
 cd external/stlport
