@@ -277,6 +277,16 @@ cd packages/apps/Contacts
 git remote add origin git@github.com:SlimSaber/packages_apps_Contacts.git
 git remote add upstream https://github.com/SlimRoms/packages_apps_Contacts.git
 croot
+repo start jb4.3 packages/apps/Phone
+cd packages/apps/Phone
+git remote add origin git@github.com:SlimSaber/packages_apps_Phone.git
+git remote add upstream https://github.com/SlimRoms/packages_apps_Phone.git
+croot
+repo start jb4.3 packages/apps/Mms
+cd packages/apps/Mms
+git remote add origin git@github.com:SlimSaber/packages_apps_Mms.git
+git remote add upstream https://github.com/SlimRoms/packages_apps_Mms.git
+croot
 repo start jb4.3 packages/apps/Settings
 cd packages/apps/Settings
 git remote add origin git@github.com:SlimSaber/packages_apps_Settings.git

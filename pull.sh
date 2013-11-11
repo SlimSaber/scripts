@@ -131,6 +131,12 @@ croot
 cd packages/apps/Contacts
 git pull upstream jb4.3
 croot
+cd packages/apps/Phone
+git pull upstream jb4.3
+croot
+cd packages/apps/Mms
+git pull upstream jb4.3
+croot
 cd packages/apps/Settings
 git pull upstream jb4.3
 croot

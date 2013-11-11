@@ -191,6 +191,12 @@ croot
 cd packages/apps/Contacts
 git push origin jb4.3
 croot
+cd packages/apps/Phone
+git push origin jb4.3
+croot
+cd packages/apps/Mms
+git push origin jb4.3
+croot
 cd packages/apps/Settings
 git push origin jb4.3
 croot
