@@ -149,5 +149,8 @@ git pull upstream jb4.3
 croot
 cd vendor/slim
 git pull upstream jb4.3
+croot
+cd vendor/samsung
+git pull upstream jb4.3
 
 croot

@@ -255,7 +255,7 @@ git remote add upstream https://github.com/SlimRoms/android_system_extras.git
 
 # Kernel
 croot
-repo start jb4.3 kernel/samsung/smdk4412
+repo start jb4.3-r3p2 kernel/samsung/smdk4412
 cd kernel/samsung/smdk4412
 git remote add origin git@github.com:SlimSaber/kernel_samsung_smdk4412.git
 git remote add upstream https://github.com/SlimRoms/kernel_samsung_smdk4412.git
@@ -305,5 +305,10 @@ repo start jb4.3 vendor/slim
 cd vendor/slim
 git remote add origin git@github.com:SlimSaber/vendor_slim.git
 git remote add upstream https://github.com/SlimRoms/vendor_slim.git
+croot
+repo start jb4.3-r3p2 vendor/samsung
+cd vendor/samsung
+git remote add origin git@github.com:SlimSaber/proprietary_vendor_samsung.git
+git remote add upstream https://github.com/SlimRoms/proprietary_vendor_samsung.git
 
 croot

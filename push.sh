@@ -178,7 +178,7 @@ git push origin jb4.3
 # Kernel
 croot
 cd kernel/samsung/smdk4412
-git push origin jb4.3
+git push origin jb4.3-r3p2
 
 # Apps
 croot
@@ -209,5 +209,8 @@ git push origin jb4.3
 croot
 cd vendor/slim
 git push origin jb4.3
+croot
+cd vendor/samsung
+git push origin jb4.3-r3p2
 
 croot
