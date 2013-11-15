@@ -219,4 +219,9 @@ croot
 cd vendor/samsung
 git push origin jb4.3-r3p2
 
+# Toolchain
+croot
+cd prebuilts/gcc/linux-x86/arm/linaro-4.7
+git push origin jb4.3
+
 croot
