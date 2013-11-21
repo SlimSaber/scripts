@@ -30,6 +30,9 @@ git push origin jb4.3
 croot
 cd system/bluetooth
 git push origin jb4.3
+croot
+cd packages/apps/DSPManager
+git push origin jb4.3
 
 ########################
 #         AOSP         #

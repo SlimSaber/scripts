@@ -26,6 +26,9 @@ git pull upstream cm-10.2
 croot
 cd system/bluetooth
 git pull upstream cm-10.2
+croot
+cd packages/apps/DSPManager
+git pull upstream cm-10.2
 
 ########################
 #       SlimRoms       #

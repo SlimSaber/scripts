@@ -48,6 +48,11 @@ repo start jb4.3 system/bluetooth
 cd system/bluetooth
 git remote add origin git@github.com:SlimSaber/android_system_bluetooth.git
 git remote add upstream https://github.com/CyanogenMod/android_system_bluetooth.git
+croot
+repo start jb4.3 packages/apps/DSPManager
+cd packages/apps/DSPManager
+git remote add origin git@github.com:SlimSaber/android_packages_apps_DSPManager.git
+git remote add upstream https://github.com/CyanogenMod/android_packages_apps_DSPManager.git
 
 ########################
 #         AOSP         #
