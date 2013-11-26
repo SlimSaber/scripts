@@ -3,6 +3,16 @@
 . build/envsetup.sh
 
 ########################
+#       SaberMod       #
+########################
+croot
+cd prebuilts/gcc/linux-x86/arm/arm-eabi-4.7
+git pull upstream sm-jb-mr2
+croot
+cd prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
+git pull upstream sm-jb-mr2
+
+########################
 #     Cyanogenmod      #
 ########################
 croot

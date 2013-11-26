@@ -10,6 +10,17 @@ repo start jb4.3 scripts
 cd scripts
 git remote add origin git@github.com:SlimSaber/scripts.git
 
+
+########################
+#       SaberMod       #
+########################
+croot
+cd prebuilts/gcc/linux-x86/arm/arm-eabi-4.7
+git remote add upstream https://github.com/SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.7.git
+croot
+cd prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
+git remote add upstream https://github.com/SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.9.git
+
 ########################
 #     Cyanogenmod      #
 ########################
@@ -325,11 +336,5 @@ repo start jb4.3-r3p2 vendor/samsung
 cd vendor/samsung
 git remote add origin git@github.com:SlimSaber/proprietary_vendor_samsung.git
 git remote add upstream https://github.com/SlimRoms/proprietary_vendor_samsung.git
-
-# Toolchain
-croot
-repo start jb4.3 prebuilts/gcc/linux-x86/arm/linaro-4.7
-cd prebuilts/gcc/linux-x86/arm/linaro-4.7
-git remote add origin git@github.com:SlimSaber/toolchain_linaro-4.7.git
 
 croot
