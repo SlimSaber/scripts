@@ -212,6 +212,16 @@ repo start jb4.3 device/samsung/n7000
 cd device/samsung/n7000
 git remote add origin git@github.com:SlimSaber/device_samsung_n7000.git
 git remote add upstream https://github.com/SlimRoms/device_samsung_n7000.git
+croot
+repo start jb4.3 device/samsung/p4-common
+cd device/samsung/p4-common
+git remote add origin git@github.com:SlimSaber/device_samsung_p4-common.git
+git remote add upstream https://github.com/pershoot/android_device_samsung_p4-common.git
+croot
+repo start jb4.3 device/samsung/p4
+cd device/samsung/p4
+git remote add origin git@github.com:SlimSaber/device_samsung_p4.git
+git remote add upstream https://github.com/pershoot/android_device_samsung_p4.git
 
 # Frameworks
 croot
@@ -275,6 +285,11 @@ repo start jb4.3-r3p2 kernel/samsung/smdk4412
 cd kernel/samsung/smdk4412
 git remote add origin git@github.com:SlimSaber/kernel_samsung_smdk4412.git
 git remote add upstream https://github.com/SlimRoms/kernel_samsung_smdk4412.git
+croot
+repo start jb4.3 kernel/samsung/p4
+cd kernel/samsung/p4
+git remote add origin git@github.com:SlimSaber/kernel_samsung_p4.git
+git remote add upstream https://github.com/pershoot/android_kernel_samsung_p4.git
 
 # Apps
 croot
@@ -336,5 +351,10 @@ repo start jb4.3-r3p2 vendor/samsung
 cd vendor/samsung
 git remote add origin git@github.com:SlimSaber/proprietary_vendor_samsung.git
 git remote add upstream https://github.com/SlimRoms/proprietary_vendor_samsung.git
+croot
+repo start jb4.3 vendor/samsung/p4
+cd vendor/samsung/p4
+git remote add origin git@github.com:SlimSaber/vendor_samsung_p4.git
+git remote add upstream https://github.com/pershoot/android_vendor_samsung_p4.git
 
 croot

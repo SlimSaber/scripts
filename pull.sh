@@ -13,6 +13,22 @@ cd prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9
 git pull upstream sm-jb-mr2
 
 ########################
+#       Pershoot       #
+########################
+croot
+cd kernel/samsung/p4
+git pull upstream cm-10.1
+croot
+cd vendor/samsung/p4
+git pull upstream cm-10.1
+croot
+cd device/samsung/p4
+git pull upstream cm-10.1
+croot
+cd device/samsung/p4-common
+git pull upstream cm-10.1
+
+########################
 #     Cyanogenmod      #
 ########################
 croot

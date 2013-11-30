@@ -10,6 +10,22 @@ cd scripts
 git push origin jb4.3
 
 ########################
+#       Pershoot       #
+########################
+croot
+cd kernel/samsung/p4
+git push origin jb4.3
+croot
+cd vendor/samsung/p4
+git push origin jb4.3
+croot
+cd device/samsung/p4
+git push origin jb4.3
+croot
+cd device/samsung/p4-common
+git push origin jb4.3
+
+########################
 #     Cyanogenmod      #
 ########################
 croot
