@@ -2,9 +2,6 @@
 
 . build/envsetup.sh
 
-########################
-#       SlimSaber      #
-########################
 croot
 cd art
 git push origin kk4.4
@@ -162,6 +159,16 @@ cd packages/inputmethods/LatinIME
 git push origin kk4.4
 croot
 cd packages/inputmethods/OpenWnn
+git push origin kk4.4
+
+# Platform
+croot
+cd platform_manifest
+git push origin kk4.4
+
+# Scripts
+croot
+cd scripts
 git push origin kk4.4
 
 # System

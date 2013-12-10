@@ -130,7 +130,6 @@ git pull linaro linaro_android_4.4
 croot
 cd frameworks/native
 git pull upstream kk4.4
-git pull linaro linaro_android_4.4
 croot
 cd frameworks/opt/net/voip
 git pull linaro linaro_android_4.4
@@ -150,7 +149,6 @@ git pull linaro linaro_android_4.4
 croot
 cd hardware/libhardware_legacy
 git pull upstream kk4.4
-git pull linaro linaro_android_4.4
 
 # Kernel
 croot
@@ -188,11 +186,9 @@ git pull upstream kk4.4
 croot
 cd system/core
 git pull upstream kk4.4
-git pull linaro linaro_android_4.4
 croot
 cd system/extras
 git pull upstream kk4.4
-git pull linaro linaro_android_4.4
 
 # Vendor
 croot
