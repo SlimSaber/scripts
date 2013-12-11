@@ -229,6 +229,10 @@ croot
 cd packages/inputmethods/OpenWnn
 git remote add origin git@github.com:SlimSaber/packages_inputmethods_OpenWnn
 git remote add linaro http://android.git.linaro.org/git-ro/platform/packages/inputmethods/OpenWnn.git
+croot
+cd packages/apps/Settings
+git remote add origin git@github.com:SlimSaber/packages_apps_Settings
+git remote add upstream https://github.com/SlimRoms/packages_apps_Settings
 
 # Platform
 croot
