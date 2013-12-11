@@ -114,6 +114,9 @@ cd external/sonivox
 git remote add origin git@github.com:SlimSaber/android_external_sonivox
 git remote add linaro http://android.git.linaro.org/git-ro/platform/external/sonivox.git
 croot
+cd external/sqlite
+git remote add origin git@github.com:SlimSaber/android_external_sqlite
+croot
 cd external/srec
 git remote add origin git@github.com:SlimSaber/android_external_srec
 git remote add upstream https://github.com/SlimRoms/android_external_srec

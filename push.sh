@@ -82,6 +82,9 @@ croot
 cd external/sonivox
 git push origin kk4.4
 croot
+cd external/sqlite
+git push origin kk4.4
+croot
 cd external/srec
 git push origin kk4.4
 croot
