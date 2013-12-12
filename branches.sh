@@ -33,6 +33,7 @@ repo start kk4.4 external/openssl
 repo start kk4.4 external/oprofile
 repo start kk4.4 external/skia
 repo start kk4.4 external/sonivox
+repo start kk4.4 external/sqlite
 repo start kk4.4 external/srec
 repo start kk4.4 external/stlport
 repo start kk4.4 external/tcpdump
@@ -66,6 +67,7 @@ repo start kk4.4 packages/apps/Camera
 repo start kk4.4 packages/apps/LegacyCamera
 repo start kk4.4 packages/inputmethods/LatinIME
 repo start kk4.4 packages/inputmethods/OpenWnn
+repo start kk4.4 packages/apps/Settings
 
 # Platform
 repo start kk4.4 platform_manifest
@@ -76,6 +78,7 @@ repo start kk4.4 scripts
 # System
 repo start kk4.4 system/core
 repo start kk4.4 system/extras
+repo start kk4.4 system/vold
 
 # Vendor
 repo start kk4.4 vendor/slim

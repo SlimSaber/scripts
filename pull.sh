@@ -192,6 +192,9 @@ git pull upstream kk4.4
 croot
 cd system/extras
 git pull upstream kk4.4
+croot
+cd system/vold
+git pull upstream kk4.4
 
 # Vendor
 croot

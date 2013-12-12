@@ -184,6 +184,9 @@ git push origin kk4.4
 croot
 cd system/extras
 git push origin kk4.4
+croot
+cd system/vold
+git push origin kk4.4
 
 # Vendor
 croot
