@@ -259,7 +259,7 @@ git remote add linaro http://android.git.linaro.org/git-ro/platform/system/extra
 croot
 cd system/vold
 git remote add origin git@github.com:SlimSaber/android_system_vold
-git remote add upstream https://github.com/omnirom/android_system_vold
+git remote add upstream https://github.com/SlimRoms/android_system_vold
 
 # Vendor
 croot
