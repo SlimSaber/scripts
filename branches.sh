@@ -49,6 +49,7 @@ repo start kk4.4 frameworks/compile/slang
 repo start kk4.4 frameworks/ex
 repo start kk4.4 frameworks/native
 repo start kk4.4 frameworks/opt/net/voip
+repo start kk4.4 frameworks/opt/telephony
 repo start kk4.4 frameworks/rs
 repo start kk4.4 frameworks/wilhelm
 
@@ -67,6 +68,7 @@ repo start kk4.4 packages/apps/Camera
 repo start kk4.4 packages/apps/LegacyCamera
 repo start kk4.4 packages/inputmethods/LatinIME
 repo start kk4.4 packages/inputmethods/OpenWnn
+repo start kk4.4 packages/apps/PackageInstaller
 repo start kk4.4 packages/apps/Settings
 
 # Platform

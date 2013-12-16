@@ -134,6 +134,9 @@ croot
 cd frameworks/opt/net/voip
 git pull linaro linaro_android_4.4.2
 croot
+cd frameworks/opt/telephony
+git pull upstream kk4.4
+croot
 cd frameworks/rs
 git pull upstream kk4.4
 git pull linaro linaro_android_4.4.2

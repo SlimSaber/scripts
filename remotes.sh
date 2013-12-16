@@ -176,6 +176,10 @@ cd frameworks/opt/net/voip
 git remote add origin git@github.com:SlimSaber/android_frameworks_opt_net_voip
 git remote add linaro http://android.git.linaro.org/git-ro/platform/frameworks/opt/net/voip.git
 croot
+cd frameworks/opt/telephony
+git remote add origin git@github.com:SlimSaber/frameworks_opt_telephony
+git remote add upstream https://github.com/SlimRoms/frameworks_opt_telephony
+croot
 cd frameworks/rs
 git remote add origin git@github.com:SlimSaber/frameworks_rs
 git remote add upstream https://github.com/SlimRoms/frameworks_rs
@@ -229,6 +233,9 @@ croot
 cd packages/inputmethods/OpenWnn
 git remote add origin git@github.com:SlimSaber/packages_inputmethods_OpenWnn
 git remote add linaro http://android.git.linaro.org/git-ro/platform/packages/inputmethods/OpenWnn.git
+croot
+cd packages/apps/PackageInstaller
+git remote add origin git@github.com:SlimSaber/packages_apps_PackageInstaller
 croot
 cd packages/apps/Settings
 git remote add origin git@github.com:SlimSaber/packages_apps_Settings

@@ -126,6 +126,9 @@ croot
 cd frameworks/opt/net/voip
 git push origin kk4.4
 croot
+cd frameworks/opt/telephony
+git push origin kk4.4
+croot
 cd frameworks/rs
 git push origin kk4.4
 croot
@@ -162,6 +165,9 @@ cd packages/inputmethods/LatinIME
 git push origin kk4.4
 croot
 cd packages/inputmethods/OpenWnn
+git push origin kk4.4
+croot
+cd packages/apps/PackageInstaller
 git push origin kk4.4
 croot
 cd packages/apps/Settings
