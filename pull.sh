@@ -3,6 +3,9 @@
 . build/envsetup.sh
 
 croot
+cd abi/cpp
+git pull linaro linaro_android_4.4.2
+croot
 cd art
 git pull upstream kk4.4
 croot
@@ -152,6 +155,10 @@ git pull linaro linaro_android_4.4.2
 croot
 cd hardware/libhardware_legacy
 git pull upstream kk4.4
+croot
+cd hardware/ril
+git pull upstream kk4.4
+git pull linaro linaro_android_4.4.2
 
 # Kernel
 croot

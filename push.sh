@@ -3,6 +3,9 @@
 . build/envsetup.sh
 
 croot
+cd abi/cpp
+git push origin kk4.4
+croot
 cd art
 git push origin kk4.4
 croot
@@ -141,6 +144,9 @@ cd hardware/libhardware
 git push origin kk4.4
 croot
 cd hardware/libhardware_legacy
+git push origin kk4.4
+croot
+cd hardware/ril
 git push origin kk4.4
 
 # Kernel

@@ -3,6 +3,10 @@
 . build/envsetup.sh
 
 croot
+cd abi/cpp
+git remote add origin git@github.com:SlimSaber/platform_abi_cpp
+git remote add linaro http://android.git.linaro.org/git-ro/platform/abi/cpp.git
+croot
 cd art
 git remote add origin git@github.com:SlimSaber/android_art
 git remote add upstream https://github.com/SlimRoms/android_art
@@ -200,6 +204,11 @@ cd hardware/libhardware_legacy
 git remote add origin git@github.com:SlimSaber/hardware_libhardware_legacy
 git remote add upstream https://github.com/SlimRoms/hardware_libhardware_legacy
 git remote add linaro http://android.git.linaro.org/git-ro/platform/hardware/libhardware_legacy.git
+croot
+cd hardware/ril
+git remote add origin git@github.com:SlimSaber/hardware_ril
+git remote add upstream https://github.com/SlimRoms/hardware_ril
+git remote add linaro http://android.git.linaro.org/git-ro/platform/hardware/ril.git
 
 # Kernel
 croot

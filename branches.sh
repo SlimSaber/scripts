@@ -4,6 +4,7 @@
 
 croot
 
+repo start kk4.4 abi/cpp
 repo start kk4.4 art
 repo start kk4.4 bionic
 repo start kk4.4 bootable/recovery
@@ -56,6 +57,7 @@ repo start kk4.4 frameworks/wilhelm
 # Hardware
 repo start kk4.4 hardware/libhardware
 repo start kk4.4 hardware/libhardware_legacy
+repo start kk4.4 hardware/ril
 
 # Kernel
 repo start kk4.4 kernel/samsung/smdk4412
