@@ -38,6 +38,10 @@ croot
 cd device/samsung/i9100
 git remote add origin git@github.com:SlimSaber/device_samsung_i9100
 git remote add upstream https://github.com/SlimRoms/device_samsung_i9100
+croot
+cd device/samsung/n7000
+git remote add origin git@github.com:SlimSaber/device_samsung_n7000
+git remote add upstream https://github.com/SlimRoms/device_samsung_n7000
 
 # External
 croot

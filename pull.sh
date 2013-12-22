@@ -30,6 +30,9 @@ git pull upstream kk4.4
 croot
 cd device/samsung/i9100
 git pull upstream kk4.4
+croot
+cd device/samsung/n7000
+git pull upstream kk4.4
 
 # External
 croot

@@ -14,6 +14,7 @@ repo start kk4.4 dalvik
 # Device
 repo start kk4.4 device/samsung/galaxys2-common
 repo start kk4.4 device/samsung/i9100
+repo start kk4.4 device/samsung/n7000
 
 # External
 repo start kk4.4 external/bluetooth/bluedroid

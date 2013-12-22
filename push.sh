@@ -28,6 +28,9 @@ git push origin kk4.4
 croot
 cd device/samsung/i9100
 git push origin kk4.4
+croot
+cd device/samsung/n7000
+git push origin kk4.4
 
 # External
 croot
