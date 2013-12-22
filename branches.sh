@@ -72,6 +72,7 @@ repo start kk4.4 packages/inputmethods/LatinIME
 repo start kk4.4 packages/inputmethods/OpenWnn
 repo start kk4.4 packages/apps/PackageInstaller
 repo start kk4.4 packages/apps/Settings
+repo start kk4.4 packages/apps/SlimCenter
 
 # Platform
 repo start kk4.4 platform_manifest

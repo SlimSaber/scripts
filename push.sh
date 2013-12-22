@@ -178,6 +178,9 @@ git push origin kk4.4
 croot
 cd packages/apps/Settings
 git push origin kk4.4
+croot
+cd packages/apps/SlimCenter
+git push origin kk4.4
 
 # Platform
 croot

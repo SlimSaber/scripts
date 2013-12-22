@@ -189,6 +189,9 @@ git pull linaro linaro_android_4.4.2
 croot
 cd packages/apps/Settings
 git pull upstream kk4.4
+croot
+cd packages/apps/SlimCenter
+git pull upstream kk4.4
 
 # Platform
 croot
