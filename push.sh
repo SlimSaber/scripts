@@ -167,6 +167,9 @@ croot
 cd packages/apps/Camera
 git push origin kk4.4
 croot
+cd packages/apps/DSPManager
+git push origin kk4.4
+croot
 cd packages/apps/LegacyCamera
 git push origin kk4.4
 croot
