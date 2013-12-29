@@ -213,5 +213,8 @@ git push origin kk4.4
 croot
 cd vendor/slim
 git push origin kk4.4
+croot
+cd vendor/samsung
+git push origin kk4.4
 
 croot

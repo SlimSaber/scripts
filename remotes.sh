@@ -294,5 +294,9 @@ croot
 cd vendor/slim
 git remote add origin git@github.com:SlimSaber/vendor_slim
 git remote add upstream https://github.com/SlimRoms/vendor_slim
+croot
+cd vendor/samsung
+git remote add origin git@github.com:SlimSaber/proprietary_vendor_samsung
+git remote add upstream https://github.com/SlimRoms/proprietary_vendor_samsung
 
 croot

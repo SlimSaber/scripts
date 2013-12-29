@@ -89,5 +89,6 @@ repo start kk4.4 system/vold
 
 # Vendor
 repo start kk4.4 vendor/slim
+repo start kk4.4 vendor/samsung
 
 croot
