@@ -261,6 +261,14 @@ croot
 cd packages/apps/SlimCenter
 git remote add origin git@github.com:SlimSaber/packages_apps_SlimCenter
 git remote add upstream https://github.com/SlimRoms/packages_apps_SlimCenter
+croot
+cd packages/providers/MediaProvider
+git remote add origin git@github.com:SlimSaber/packages_providers_MediaProvider
+git remote add upstream https://github.com/SlimRoms/packages_providers_MediaProvider
+croot
+cd packages/services/Telephony
+git remote add origin git@github.com:SlimSaber/packages_services_Telephony
+git remote add upstream https://github.com/SlimRoms/packages_services_Telephony
 
 # Platform
 croot

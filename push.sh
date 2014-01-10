@@ -187,6 +187,12 @@ git push origin kk4.4
 croot
 cd packages/apps/SlimCenter
 git push origin kk4.4
+croot
+cd packages/providers/MediaProvider
+git push origin kk4.4
+croot
+cd packages/services/Telephony
+git push origin kk4.4
 
 # Platform
 croot

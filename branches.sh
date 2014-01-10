@@ -75,6 +75,8 @@ repo start kk4.4 packages/inputmethods/OpenWnn
 repo start kk4.4 packages/apps/PackageInstaller
 repo start kk4.4 packages/apps/Settings
 repo start kk4.4 packages/apps/SlimCenter
+repo start kk4.4 packages/providers/MediaProvider
+repo start kk4.4 packages/services/Telephony
 
 # Platform
 repo start kk4.4 platform_manifest

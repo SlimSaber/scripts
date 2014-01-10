@@ -198,6 +198,12 @@ git pull upstream kk4.4
 croot
 cd packages/apps/SlimCenter
 git pull upstream kk4.4
+croot
+cd packages/providers/MediaProvider
+git pull upstream kk4.4
+croot
+cd packages/services/Telephony
+git pull upstream kk4.4
 
 # Platform
 croot
