@@ -71,6 +71,7 @@ repo start kk4.4 packages/apps/Camera
 repo start kk4.4 packages/apps/DSPManager
 repo start kk4.4 packages/apps/LegacyCamera
 repo start kk4.4 packages/inputmethods/LatinIME
+repo start kk4.4 packages/apps/Launcher3
 repo start kk4.4 packages/inputmethods/OpenWnn
 repo start kk4.4 packages/apps/PackageInstaller
 repo start kk4.4 packages/apps/Settings
