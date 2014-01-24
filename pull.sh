@@ -180,6 +180,9 @@ cd packages/apps/Camera
 git pull upstream kk4.4
 git pull linaro linaro_android_4.4.2
 croot
+cd packages/apps/Dialer
+git pull upstream kk4.4
+croot
 cd packages/apps/DSPManager
 git pull upstream cm-11.0
 croot
