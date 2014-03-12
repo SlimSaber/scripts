@@ -17,7 +17,7 @@ echo -e "${cya}Waiting for device... ${txtrst}"
 adb wait-for-device
 
 echo -e "${cya}Sending $VERSION.zip to ${DESTPATH}... ${txtrst}"
-adb push ${PACKAGE} ${DESTPATH}
+adb push -p ${PACKAGE} ${DESTPATH}
 adb push ${PACKAGE}.md5 ${DESTPATH}
 
 croot
