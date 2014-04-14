@@ -107,6 +107,7 @@ git remote add linaro http://android.git.linaro.org/git-ro/platform/external/ope
 croot
 cd external/openssl
 git remote add origin git@github.com:SlimSaber/android_external_openssl
+git remote add upstream https://github.com/SlimRoms/android_external_openssl
 git remote add linaro http://android.git.linaro.org/git-ro/platform/external/openssl.git
 croot
 cd external/oprofile

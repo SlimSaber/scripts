@@ -83,6 +83,7 @@ cd external/openssh
 git pull linaro linaro_android_4.4.2
 croot
 cd external/openssl
+git pull upstream kk4.4
 git pull linaro linaro_android_4.4.2
 croot
 cd external/oprofile
