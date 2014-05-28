@@ -165,9 +165,9 @@ git pull upstream kk4.4
 git pull linaro linaro_android_4.4.2
 
 # Kernel
-croot
-cd kernel/samsung/smdk4412
-git pull upstream kk4.4
+#croot
+#cd kernel/samsung/smdk4412
+#git pull upstream kk4.4
 
 # Libcore
 croot
