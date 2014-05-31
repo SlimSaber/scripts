@@ -193,6 +193,9 @@ croot
 cd packages/apps/DSPManager
 git pull upstream cm-11.0
 croot
+cd packages/apps/InCallUI
+git pull upstream kk4.4
+croot
 cd packages/apps/LegacyCamera
 git pull linaro linaro_android_4.4.2
 croot

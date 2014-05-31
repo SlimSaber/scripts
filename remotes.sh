@@ -251,6 +251,10 @@ cd packages/apps/DSPManager
 git remote add origin git@github.com:SlimSaber/android_packages_apps_DSPManager
 git remote add upstream https://github.com/CyanogenMod/android_packages_apps_DSPManager
 croot
+cd packages/apps/InCallUI
+git remote add origin git@github.com:SlimSaber/packages_apps_InCallUI.git
+git remote add upstream https://github.com/SlimRoms/packages_apps_InCallUI.git
+croot
 cd packages/apps/LegacyCamera
 git remote add origin git@github.com:SlimSaber/packages_apps_LegacyCamera
 git remote add linaro http://android.git.linaro.org/git-ro/platform/packages/apps/LegacyCamera.git

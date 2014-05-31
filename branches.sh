@@ -72,6 +72,7 @@ repo start kk4.4 libcore
 repo start kk4.4 packages/apps/Camera
 repo start kk4.4 packages/apps/Dialer
 repo start kk4.4 packages/apps/DSPManager
+repo start kk4.4 packages/apps/InCallUI
 repo start kk4.4 packages/apps/LegacyCamera
 repo start kk4.4 packages/inputmethods/LatinIME
 repo start kk4.4 packages/apps/Launcher3
