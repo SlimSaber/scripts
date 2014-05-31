@@ -55,6 +55,12 @@ croot
 cd external/embunit
 git push origin kk4.4
 croot
+cd external/exfat
+git push origin kk4.4
+croot
+cd external/fuse
+git push origin kk4.4
+croot
 cd external/freetype
 git push origin kk4.4
 croot

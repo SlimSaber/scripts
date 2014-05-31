@@ -76,6 +76,14 @@ cd external/embunit
 git remote add origin git@github.com:SlimSaber/android_external_embunit
 git remote add linaro http://android.git.linaro.org/git-ro/platform/external/embunit.git
 croot
+cd external/exfat
+git remote add upstream https://github.com/SlimRoms/android_external_exfat.git
+git remote add origin git@github.com:SlimSaber/android_external_exfat.git
+croot
+cd external/fuse
+git remote add upstream https://github.com/SlimRoms/android_external_fuse.git
+git remote add origin git@github.com:SlimSaber/android_external_fuse.git
+croot
 cd external/freetype
 git remote add origin git@github.com:SlimSaber/android_external_freetype
 git remote add linaro http://android.git.linaro.org/git-ro/platform/external/freetype.git

@@ -24,6 +24,8 @@ repo start kk4.4 external/dnsmasq
 repo start kk4.4 external/e2fsprogs
 repo start kk4.4 external/elfutils
 repo start kk4.4 external/embunit
+repo start kk4.4 external/exfat
+repo start kk4.4 external/fuse
 repo start kk4.4 external/freetype
 repo start kk4.4 external/gtest
 repo start kk4.4 external/iproute2

@@ -60,6 +60,12 @@ croot
 cd external/embunit
 git pull linaro linaro_android_4.4.2
 croot
+cd external/exfat
+git pull upstream kk4.4
+croot
+cd external/fuse
+git pull upstream kk4.4
+croot
 cd external/freetype
 git pull linaro linaro_android_4.4.2
 croot
