@@ -197,6 +197,9 @@ croot
 cd packages/apps/PackageInstaller
 git push origin kk4.4
 croot
+cd packages/apps/PerformanceControl
+git push origin kk4.4
+croot
 cd packages/apps/Settings
 git push origin kk4.4
 croot

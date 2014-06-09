@@ -209,6 +209,9 @@ croot
 cd packages/inputmethods/OpenWnn
 git pull linaro linaro_android_4.4.2
 croot
+cd packages/apps/PerformanceControl
+git pull upstream android-4.4
+croot
 cd packages/apps/Settings
 git pull upstream kk4.4
 croot

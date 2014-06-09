@@ -275,6 +275,10 @@ croot
 cd packages/apps/PackageInstaller
 git remote add origin git@github.com:SlimSaber/packages_apps_PackageInstaller
 croot
+cd packages/apps/PerformanceControl
+git remote add origin git@github.com:SlimSaber/android_packages_apps_PerformanceControl.git
+git remote add upstream https://github.com/omnirom/android_packages_apps_PerformanceControl.git
+croot
 cd packages/apps/Settings
 git remote add origin git@github.com:SlimSaber/packages_apps_Settings
 git remote add upstream https://github.com/SlimRoms/packages_apps_Settings
