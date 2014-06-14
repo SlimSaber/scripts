@@ -233,6 +233,14 @@ croot
 cd system/vold
 git push origin kk4.4
 
+# SaberMod toolchain
+croot
+cd prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
+git push origin kk4.4
+croot
+cd prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8
+git push origin kk4.4
+
 # Vendor
 croot
 cd vendor/slim
