@@ -29,6 +29,13 @@ cd packages/apps/DSPManager
 git remote add origin git@github.com:SlimSaber/android_packages_apps_DSPManager.git
 
 croot
+cd platform_manifest
+git remote add origin git@github.com:SlimSaber/platform_manifest.git
+croot
+cd scripts
+git remote add origin git@github.com:SlimSaber/scripts.git
+
+croot
 cd vendor/samsung/p4/
 git remote add origin git@github.com:SlimSaber/vendor_samsung_p4.git
 croot

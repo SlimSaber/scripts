@@ -16,6 +16,9 @@ repo start jb4.3-reborn kernel/samsung/p4/
 
 repo start jb4.3-reborn packages/apps/DSPManager
 
+repo start jb4.3-reborn platform_manifest
+repo start jb4.3-reborn scripts
+
 repo start jb4.3-reborn vendor/samsung/p4/
 repo start jb4.3-reborn vendor/slim
 
