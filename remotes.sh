@@ -30,6 +30,9 @@ git remote add origin git@github.com:SlimSaber/android_packages_apps_DSPManager.
 croot
 cd packages/apps/Settings
 git remote add origin git@github.com:SlimSaber/packages_apps_Settings.git
+croot
+cd packages/apps/SlimCenter
+git remote add origin git@github.com:SlimSaber/packages_apps_SlimCenter.git
 
 croot
 cd platform_manifest
