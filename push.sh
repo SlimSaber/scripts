@@ -115,6 +115,8 @@ croot && cd packages/apps/Gallery2
 git push origin jb4.3-reborn
 croot && cd packages/apps/LegacyCamera
 git push origin jb4.3-reborn
+croot && cd packages/apps/Settings
+git push origin jb4.3-reborn
 croot && cd packages/inputmethods/LatinIME
 git push origin jb4.3-reborn
 croot && cd packages/inputmethods/OpenWnn
