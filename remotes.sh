@@ -12,6 +12,12 @@ git remote add origin git@github.com:SlimSaber/device_samsung_p4.git
 croot
 cd device/samsung/p4-common/
 git remote add origin git@github.com:SlimSaber/device_samsung_p4-common.git
+croot
+cd device/samsung/i9100
+git remote add origin git@github.com:SlimSaber/device_samsung_i9100.git
+croot
+cd device/samsung/galaxys2-common
+git remote add origin git@github.com:SlimSaber/device_samsung_galaxys2-common.git
 
 croot
 cd external/bash
@@ -21,8 +27,15 @@ cd external/sqlite
 git remote add origin git@github.com:SlimSaber/android_external_sqlite.git
 
 croot
-cd kernel/samsung/p4/
+cd kernel/samsung/p4
 git remote add origin git@github.com:SlimSaber/kernel_samsung_p4.git
+croot
+cd kernel/samsung/smdk4412
+git remote add origin git@github.com:SlimSaber/kernel_samsung_smdk4412.git
+
+croot
+cd hardware/samsung
+git remote add origin git@github.com:SlimSaber/hardware_samsung.git
 
 croot
 cd packages/apps/DSPManager
@@ -42,8 +55,14 @@ cd scripts
 git remote add origin git@github.com:SlimSaber/scripts.git
 
 croot
-cd vendor/samsung/p4/
+cd vendor/samsung/p4
 git remote add origin git@github.com:SlimSaber/vendor_samsung_p4.git
+croot
+cd vendor/samsung/i9100
+git remote add origin git@github.com:SlimSaber/vendor_samsung_i9100.git
+croot
+cd vendor/samsung/galaxys2-common
+git remote add origin git@github.com:SlimSaber/vendor_samsung_galaxys2-common.git
 croot
 cd vendor/slim
 git remote add origin git@github.com:SlimSaber/vendor_slim.git

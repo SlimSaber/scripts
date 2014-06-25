@@ -16,6 +16,11 @@ git push origin jb4.3-reborn
 croot && cd device/samsung/p4-common
 git push origin jb4.3-reborn
 
+croot && cd device/samsung/i9100
+git push origin jb4.3-reborn
+croot && cd device/samsung/galaxys2-common
+git push origin jb4.3-reborn
+
 croot && cd external/bash
 git push origin jb4.3-reborn
 croot && cd external/bluetooth/bluedroid
@@ -100,8 +105,12 @@ croot && cd hardware/libhardware_legacy
 git push origin jb4.3-reborn
 croot && cd hardware/ril
 git push origin jb4.3-reborn
+croot && cd hardware/samsung
+git push origin jb4.3-reborn
 
 croot && cd kernel/samsung/p4/
+git push origin jb4.3-reborn
+croot && cd kernel/samsung/smdk4412
 git push origin jb4.3-reborn
 
 croot && cd libcore
@@ -137,6 +146,10 @@ git push origin jb4.3-reborn
 croot && cd vendor/slim
 git push origin jb4.3-reborn
 croot && cd vendor/samsung/p4
+git push origin jb4.3-reborn
+croot && cd vendor/samsung/i9100
+git push origin jb4.3-reborn
+croot && cd vendor/samsung/galaxys2-common
 git push origin jb4.3-reborn
 
 croot
