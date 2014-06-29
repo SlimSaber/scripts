@@ -19,6 +19,7 @@ echo -e "${bldblu}Setting up build environment ${txtrst}"
 export USE_CCACHE=1
 export CCACHE_DIR="`pwd`/../.ccache"
 prebuilts/misc/linux-x86/ccache/ccache -M 30G
+export BUILDING_RECOVERY=true
 
 echo -e "${bldblu}Cleaning up out folder ${txtrst}"
 make clobber;
@@ -26,9 +27,6 @@ make clobber;
 # Lunch device
 echo -e "${bldblu}Lunching device... ${txtrst}"
 lunch "slim_$DEVICE-userdebug"
-
-#TARGET_USE_O3 := false
-#TARGET_KERNEL_CUSTOM_TOOLCHAIN := "arm-eabi-4.6/bin/arm-eabi-"
 
 # Start compilation
 echo -e "${bldblu}Starting build kernel for $DEVICE ${txtrst}"
