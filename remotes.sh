@@ -268,6 +268,10 @@ cd packages/apps/Launcher3
 git remote add origin git@github.com:SlimSaber/android_packages_apps_Launcher3
 git remote add upstream https://github.com/omnirom/android_packages_apps_Launcher3
 croot
+cd packages/apps/Mms
+git remote add origin git@github.com:SlimSaber/packages_apps_Mms
+git remote add upstream https://github.com/SlimRoms/packages_apps_Mms
+croot
 cd packages/inputmethods/OpenWnn
 git remote add origin git@github.com:SlimSaber/packages_inputmethods_OpenWnn
 git remote add linaro http://android.git.linaro.org/git-ro/platform/packages/inputmethods/OpenWnn.git
