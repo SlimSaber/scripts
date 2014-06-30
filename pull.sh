@@ -17,7 +17,7 @@ cd bootable/recovery
 git pull upstream kk4.4
 croot
 cd build
-git pull upstream kk4.4
+#git pull upstream kk4.4
 croot
 cd dalvik
 git pull upstream kk4.4
@@ -249,6 +249,6 @@ cd vendor/slim
 git pull upstream kk4.4
 croot
 cd vendor/samsung
-git pull upstream kk4.4
+#git pull upstream kk4.4
 
 croot
