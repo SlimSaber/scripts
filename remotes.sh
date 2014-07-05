@@ -92,6 +92,9 @@ cd external/gtest
 git remote add origin git@github.com:SlimSaber/android_external_gtest
 git remote add linaro http://android.git.linaro.org/git-ro/platform/external/gtest.git
 croot
+cd external/gson
+git remote add upstream https://github.com/CyanogenMod/android_external_gson.git
+croot
 cd external/iproute2
 git remote add origin git@github.com:SlimSaber/android_external_iproute2
 git remote add linaro http://android.git.linaro.org/git-ro/platform/external/iproute2.git
@@ -220,7 +223,7 @@ git remote add linaro http://android.git.linaro.org/git-ro/platform/hardware/lib
 croot
 cd hardware/ril
 git remote add origin git@github.com:SlimSaber/hardware_ril
-git remote add upstream https://github.com/SlimRoms/hardware_ril
+git remote add upstream https://github.com/CyanogenMod/android_hardware_ril.git
 git remote add linaro http://android.git.linaro.org/git-ro/platform/hardware/ril.git
 
 # Kernel
@@ -237,6 +240,9 @@ git remote add upstream https://github.com/SlimRoms/platform_libcore
 git remote add linaro http://android.git.linaro.org/git-ro/platform/libcore.git
 
 # Apps
+croot
+cd packages/apps/Calculator
+git remote add upstream https://github.com/CyanogenMod/android_packages_apps_Calculator.git
 croot
 cd packages/apps/Camera
 git remote add origin git@github.com:SlimSaber/packages_apps_Camera

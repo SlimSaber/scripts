@@ -72,6 +72,9 @@ croot
 cd external/gtest
 #git pull linaro linaro_android_4.4.2
 croot
+cd external/gson
+git pull upstream cm-11.0
+croot
 cd external/iproute2
 #git pull linaro linaro_android_4.4.2
 croot
@@ -167,7 +170,7 @@ cd hardware/libhardware_legacy
 git pull upstream kk4.4
 croot
 cd hardware/ril
-git pull upstream kk4.4
+git pull upstream cm-11.0
 #git pull linaro linaro_android_4.4.2
 
 # Kernel
@@ -182,6 +185,9 @@ git pull upstream kk4.4
 #git pull linaro linaro_android_4.4.2
 
 # Apps
+croot
+cd packages/apps/Calculator
+git pull upstream cm-11.0
 croot
 cd packages/apps/Camera
 git pull upstream kk4.4
