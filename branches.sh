@@ -100,7 +100,6 @@ repo start kk4.4 system/vold
 repo start kk4.4 vendor/slim
 repo start kk4.4 vendor/samsung/i9100
 repo start kk4.4 vendor/samsung/n7000
-repo start kk4.4 vendor/samsung/i777
 repo start kk4.4 vendor/samsung/galaxys2-common
 
 croot

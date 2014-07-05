@@ -244,8 +244,6 @@ croot && cd vendor/samsung/i9100
 git push origin kk4.4
 croot && cd vendor/samsung/n7000
 git push origin kk4.4
-croot && cd vendor/samsung/i777
-git push origin kk4.4
 croot && cd vendor/samsung/galaxys2-common
 git push origin kk4.4
 

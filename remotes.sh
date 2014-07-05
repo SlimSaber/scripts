@@ -344,9 +344,6 @@ croot
 cd vendor/samsung/n7000
 git remote add origin git@github.com:SlimSaber/vendor_samsung_n7000.git
 croot
-cd vendor/samsung/i777
-git remote add origin git@github.com:SlimSaber/vendor_samsung_i777.git
-croot
 cd vendor/samsung/galaxys2-common
 git remote add origin git@github.com:SlimSaber/vendor_samsung_galaxys2-common.git
 
