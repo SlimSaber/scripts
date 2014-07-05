@@ -236,20 +236,17 @@ croot
 cd system/vold
 git push origin kk4.4
 
-# SaberMod toolchain
-croot
-cd prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
-git push origin kk4.4
-croot
-cd prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8
-git push origin kk4.4
-
 # Vendor
 croot
 cd vendor/slim
 git push origin kk4.4
-croot
-cd vendor/samsung
+croot && cd vendor/samsung/i9100
+git push origin kk4.4
+croot && cd vendor/samsung/n7000
+git push origin kk4.4
+croot && cd vendor/samsung/i777
+git push origin kk4.4
+croot && cd vendor/samsung/galaxys2-common
 git push origin kk4.4
 
 croot

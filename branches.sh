@@ -96,12 +96,11 @@ repo start kk4.4 system/core
 repo start kk4.4 system/extras
 repo start kk4.4 system/vold
 
-# SaberMod toolchain
-repo start kk4.4 prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
-repo start kk4.4 prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8
-
 # Vendor
 repo start kk4.4 vendor/slim
-repo start kk4.4 vendor/samsung
+repo start kk4.4 vendor/samsung/i9100
+repo start kk4.4 vendor/samsung/n7000
+repo start kk4.4 vendor/samsung/i777
+repo start kk4.4 vendor/samsung/galaxys2-common
 
 croot

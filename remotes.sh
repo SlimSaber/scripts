@@ -326,24 +326,22 @@ cd system/vold
 git remote add origin git@github.com:SlimSaber/android_system_vold
 git remote add upstream https://github.com/SlimRoms/android_system_vold
 
-# SaberMod toolchain
-croot
-cd prebuilts/gcc/linux-x86/arm/arm-eabi-4.8
-git remote add origin git@github.com:SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8.git
-git remote add upstream https://github.com/kantjer/SaberMod.git
-croot
-cd prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8
-git remote add origin git@github.com:SlimSaber/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8.git
-git remote add upstream https://github.com/kantjer/SaberMod.git
-
 # Vendor
 croot
 cd vendor/slim
 git remote add origin git@github.com:SlimSaber/vendor_slim
 git remote add upstream https://github.com/SlimRoms/vendor_slim
 croot
-cd vendor/samsung
-git remote add origin git@github.com:SlimSaber/proprietary_vendor_samsung
-git remote add upstream https://github.com/SlimRoms/proprietary_vendor_samsung
+cd vendor/samsung/i9100
+git remote add origin git@github.com:SlimSaber/vendor_samsung_i9100.git
+croot
+cd vendor/samsung/n7000
+git remote add origin git@github.com:SlimSaber/vendor_samsung_n7000.git
+croot
+cd vendor/samsung/i777
+git remote add origin git@github.com:SlimSaber/vendor_samsung_i777.git
+croot
+cd vendor/samsung/galaxys2-common
+git remote add origin git@github.com:SlimSaber/vendor_samsung_galaxys2-common.git
 
 croot

@@ -247,8 +247,5 @@ git pull upstream kk4.4
 croot
 cd vendor/slim
 git pull upstream kk4.4
-croot
-cd vendor/samsung
-#git pull upstream kk4.4
 
 croot
