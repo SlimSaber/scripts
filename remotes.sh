@@ -46,6 +46,9 @@ git remote add origin git@github.com:SlimSaber/packages_apps_Settings.git
 croot
 cd packages/apps/SlimCenter
 git remote add origin git@github.com:SlimSaber/packages_apps_SlimCenter.git
+croot
+cd packages/providers/MediaProvider
+git remote add origin git@github.com:SlimSaber/packages_providers_MediaProvider.git
 
 croot
 cd platform_manifest

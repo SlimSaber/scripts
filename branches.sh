@@ -23,6 +23,7 @@ repo start jb4.3-reborn hardware/samsung
 repo start jb4.3-reborn packages/apps/DSPManager
 repo start jb4.3-reborn packages/apps/Settings
 repo start jb4.3-reborn packages/apps/SlimCenter
+repo start jb4.3-reborn packages/providers/MediaProvider
 
 repo start jb4.3-reborn platform_manifest
 repo start jb4.3-reborn scripts
