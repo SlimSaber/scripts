@@ -314,11 +314,6 @@ cd platform_manifest
 git remote add origin git@github.com:SlimSaber/platform_manifest
 git remote add upstream https://github.com/SlimRoms/platform_manifest
 
-# Scripts
-croot
-cd scripts
-git remote add origin git@github.com:SlimSaber/scripts
-
 # System
 croot
 cd system/core

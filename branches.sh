@@ -89,9 +89,6 @@ repo start kk4.4 packages/services/Telephony
 # Platform
 repo start kk4.4 platform_manifest
 
-# Scripts
-repo start kk4.4 scripts
-
 # System
 repo start kk4.4 system/core
 repo start kk4.4 system/extras

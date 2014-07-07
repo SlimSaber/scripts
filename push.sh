@@ -223,11 +223,6 @@ croot
 cd platform_manifest
 git push origin kk4.4
 
-# Scripts
-croot
-cd scripts
-git push origin kk4.4
-
 # System
 croot
 cd system/core
