@@ -20,6 +20,7 @@ repo start kk4.4 device/samsung/n7000
 repo start kk4.4 external/bluetooth/bluedroid
 repo start kk4.4 external/chromium
 repo start kk4.4 external/clang
+repo start kk4.4 external/compiler-rt
 repo start kk4.4 external/dnsmasq
 repo start kk4.4 external/e2fsprogs
 repo start kk4.4 external/elfutils

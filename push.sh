@@ -43,6 +43,9 @@ croot
 cd external/clang
 git push origin kk4.4
 croot
+cd external/compiler-rt
+git push origin kk4.4
+croot
 cd external/dnsmasq
 git push origin kk4.4
 croot

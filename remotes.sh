@@ -59,6 +59,9 @@ git remote add origin git@github.com:SlimSaber/android_external_clang
 git remote add upstream https://github.com/SlimRoms/android_external_clang
 git remote add linaro http://android.git.linaro.org/git-ro/platform/external/clang.git
 croot
+cd external/compiler-rt
+git remote add origin git@github.com:SlimSaber/android_external_compiler-rt
+croot
 cd external/dnsmasq
 git remote add origin git@github.com:SlimSaber/android_external_dnsmasq
 git remote add linaro http://android.git.linaro.org/git-ro/platform/external/dnsmasq.git
