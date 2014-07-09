@@ -173,6 +173,9 @@ git push origin kk4.4
 
 # Apps
 croot
+cd packages/apps/Bluetooth
+git push origin kk4.4
+croot
 cd packages/apps/Camera
 git push origin kk4.4
 croot

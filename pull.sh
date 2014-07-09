@@ -186,6 +186,9 @@ git pull upstream kk4.4
 
 # Apps
 croot
+cd packages/apps/Bluetooth
+git pull upstream kk4.4
+croot
 cd packages/apps/Calculator
 git pull upstream cm-11.0
 croot

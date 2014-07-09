@@ -70,6 +70,7 @@ repo start kk4.4 kernel/samsung/smdk4412
 repo start kk4.4 libcore
 
 # Apps
+repo start kk4.4 packages/apps/Bluetooth
 repo start kk4.4 packages/apps/Camera
 repo start kk4.4 packages/apps/Dialer
 repo start kk4.4 packages/apps/DSPManager

@@ -244,6 +244,10 @@ git remote add linaro http://android.git.linaro.org/git-ro/platform/libcore.git
 
 # Apps
 croot
+cd packages/apps/Bluetooth
+git remote add origin git@github.com:SlimSaber/packages_apps_Bluetooth
+git remote add upstream https://github.com/SlimRoms/packages_apps_Bluetooth
+croot
 cd packages/apps/Calculator
 git remote add upstream https://github.com/CyanogenMod/android_packages_apps_Calculator.git
 croot
