@@ -23,6 +23,9 @@ croot
 cd external/bash
 git remote add origin git@github.com:SlimSaber/android_external_bash.git
 croot
+cd external/compiler-rt
+git remote add origin git@github.com:SlimSaber/android_external_compiler-rt.git
+croot
 cd external/sqlite
 git remote add origin git@github.com:SlimSaber/android_external_sqlite.git
 
@@ -40,6 +43,9 @@ git remote add origin git@github.com:SlimSaber/hardware_samsung.git
 croot
 cd packages/apps/DSPManager
 git remote add origin git@github.com:SlimSaber/android_packages_apps_DSPManager.git
+croot
+cd packages/apps/Mms
+git remote add origin git@github.com:SlimSaber/packages_apps_Mms.git
 croot
 cd packages/apps/Settings
 git remote add origin git@github.com:SlimSaber/packages_apps_Settings.git

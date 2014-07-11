@@ -29,6 +29,8 @@ croot && cd external/chromium
 git push origin jb4.3-reborn
 croot && cd external/clang
 git push origin jb4.3-reborn
+croot && cd external/compiler-rt
+git push origin jb4.3-reborn
 croot && cd external/dnsmasq
 git push origin jb4.3-reborn
 croot && cd external/e2fsprogs
@@ -123,6 +125,8 @@ git push origin jb4.3-reborn
 croot && cd packages/apps/Gallery2
 git push origin jb4.3-reborn
 croot && cd packages/apps/LegacyCamera
+git push origin jb4.3-reborn
+croot && cd packages/apps/Mms
 git push origin jb4.3-reborn
 croot && cd packages/apps/Settings
 git push origin jb4.3-reborn
