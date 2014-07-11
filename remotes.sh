@@ -59,9 +59,6 @@ git remote add origin git@github.com:SlimSaber/packages_providers_MediaProvider.
 croot
 cd platform_manifest
 git remote add origin git@github.com:SlimSaber/platform_manifest.git
-croot
-cd scripts
-git remote add origin git@github.com:SlimSaber/scripts.git
 
 croot
 cd vendor/samsung/p4

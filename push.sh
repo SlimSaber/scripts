@@ -141,8 +141,6 @@ git push origin jb4.3-reborn
 
 croot && cd platform_manifest
 git push origin jb4.3-reborn
-croot && cd scripts
-git push origin jb4.3-reborn
 
 croot && cd system/core
 git push origin jb4.3-reborn

@@ -28,7 +28,6 @@ repo start jb4.3-reborn packages/apps/SlimCenter
 repo start jb4.3-reborn packages/providers/MediaProvider
 
 repo start jb4.3-reborn platform_manifest
-repo start jb4.3-reborn scripts
 
 repo start jb4.3-reborn vendor/samsung/p4
 repo start jb4.3-reborn vendor/samsung/i9100
