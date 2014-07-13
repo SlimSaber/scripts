@@ -13,9 +13,6 @@ cd bionic
 git pull upstream kk4.4
 #git pull linaro linaro_android_4.4.2
 croot
-cd bootable/recovery
-git pull upstream kk4.4
-croot
 cd build
 #git pull upstream kk4.4
 croot

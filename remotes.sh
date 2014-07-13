@@ -16,10 +16,6 @@ git remote add origin git@github.com:SlimSaber/android_bionic
 git remote add upstream https://github.com/SlimRoms/android_bionic
 git remote add linaro http://android.git.linaro.org/git-ro/platform/bionic.git
 croot
-cd bootable/recovery
-git remote add origin git@github.com:SlimSaber/bootable_recovery
-git remote add upstream https://github.com/SlimRoms/bootable_recovery
-croot
 cd build
 git remote add origin git@github.com:SlimSaber/android_build
 git remote add upstream https://github.com/SlimRoms/android_build

@@ -7,7 +7,6 @@ croot
 repo start kk4.4 abi/cpp
 repo start kk4.4 art
 repo start kk4.4 bionic
-repo start kk4.4 bootable/recovery
 repo start kk4.4 build
 repo start kk4.4 dalvik
 

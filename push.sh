@@ -12,9 +12,6 @@ croot
 cd bionic
 git push origin kk4.4
 croot
-cd bootable/recovery
-git push origin kk4.4
-croot
 cd build
 git push origin kk4.4
 croot
