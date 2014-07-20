@@ -184,6 +184,7 @@ git remote add linaro http://android.git.linaro.org/git-ro/platform/frameworks/c
 croot
 cd frameworks/ex
 git remote add origin git@github.com:SlimSaber/android_frameworks_ex
+git remote add upstream https://github.com/SlimRoms/frameworks_ex.git
 git remote add linaro http://android.git.linaro.org/git-ro/platform/frameworks/ex.git
 croot
 cd frameworks/native
