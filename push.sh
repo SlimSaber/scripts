@@ -39,6 +39,12 @@ croot && cd external/elfutils
 git push origin jb4.3-reborn
 croot && cd external/embunit
 git push origin jb4.3-reborn
+
+croot && cd external/exfat
+git push origin jb4.3-reborn
+croot && cd external/fuse
+git push origin jb4.3-reborn
+
 croot && cd external/freetype
 git push origin jb4.3-reborn
 croot && cd external/gtest
@@ -145,6 +151,8 @@ git push origin jb4.3-reborn
 croot && cd system/core
 git push origin jb4.3-reborn
 croot && cd system/extras
+git push origin jb4.3-reborn
+croot && cd system/vold
 git push origin jb4.3-reborn
 
 croot && cd vendor/slim
