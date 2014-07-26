@@ -191,9 +191,6 @@ croot
 cd packages/inputmethods/LatinIME
 git push origin kk4.4
 croot
-cd packages/apps/Launcher3
-git push origin kk4.4
-croot
 cd packages/apps/Mms
 git push origin kk4.4
 croot

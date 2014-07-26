@@ -210,9 +210,6 @@ cd packages/inputmethods/LatinIME
 git pull upstream kk4.4
 #git pull linaro linaro_android_4.4.2
 croot
-cd packages/apps/Launcher3
-git pull upstream android-4.4
-croot
 cd packages/apps/Mms
 git pull upstream kk4.4
 croot
