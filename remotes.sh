@@ -27,10 +27,16 @@ cd external/compiler-rt
 git remote add origin git@github.com:SlimSaber/android_external_compiler-rt.git
 croot
 cd external/exfat
+git remote add upstream https://github.com/CyanogenMod/android_external_exfat.git
 git remote add origin git@github.com:SlimSaber/android_external_exfat.git
 croot
 cd external/fuse
+git remote add upstream https://github.com/CyanogenMod/android_external_fuse.git
 git remote add origin git@github.com:SlimSaber/android_external_fuse.git
+croot
+cd external/skia
+git remote add upstream https://github.com/CyanogenMod/android_external_skia.git
+git remote add origin git@github.com:SlimSaber/android_external_skia.git
 croot
 cd external/sqlite
 git remote add origin git@github.com:SlimSaber/android_external_sqlite.git
@@ -68,6 +74,7 @@ git remote add origin git@github.com:SlimSaber/platform_manifest.git
 
 croot
 cd system/vold
+git remote add upstream https://github.com/CyanogenMod/android_system_vold.git
 git remote add origin git@github.com:SlimSaber/android_system_vold.git
 
 croot

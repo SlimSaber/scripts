@@ -16,6 +16,7 @@ repo start jb4.3-reborn external/bash
 repo start jb4.3-reborn external/compiler-rt
 repo start jb4.3-reborn external/exfat
 repo start jb4.3-reborn external/fuse
+repo start jb4.3-reborn external/skia
 repo start jb4.3-reborn external/sqlite
 
 repo start jb4.3-reborn kernel/samsung/p4
