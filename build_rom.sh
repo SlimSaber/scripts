@@ -34,9 +34,19 @@ fi
 # Setup environment
 echo -e "${bldblu}Setting up build environment ${txtrst}"
 . build/envsetup.sh
+
+# Setup ccache
 export USE_CCACHE=1
 /usr/bin/ccache -M 50G
+
+# For building recovery
 export BUILDING_RECOVERY=false
+
+# Prebuilt chromium
+export USE_PREBUILT_CHROMIUM=1
+
+# Fix common out folder not being a common
+export ANDROID_FIXUP_COMMON_OUT=true
 
 # Lunch device
 echo -e "${bldblu}Lunching device... ${txtrst}"
