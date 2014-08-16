@@ -35,7 +35,6 @@ fi
 echo -e "${bldblu}Setting up build environment ${txtrst}"
 . build/envsetup.sh
 export USE_CCACHE=1
-export CCACHE_DIR="`pwd`/../.ccache"
 /usr/bin/ccache -M 50G
 export BUILDING_RECOVERY=false
 
