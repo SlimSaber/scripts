@@ -61,6 +61,8 @@ repo start kk4.4 frameworks/wilhelm
 repo start kk4.4 hardware/libhardware
 repo start kk4.4 hardware/libhardware_legacy
 repo start kk4.4 hardware/ril
+repo start kk4.4 hardware/qcom/audio
+repo start kk4.4 hardware/qcom/camera
 
 # Kernel
 repo start kk4.4 kernel/samsung/smdk4412

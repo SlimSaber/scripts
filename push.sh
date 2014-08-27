@@ -157,6 +157,12 @@ git push origin kk4.4
 croot
 cd hardware/ril
 git push origin kk4.4
+croot
+cd hardware/qcom/audio
+git push origin kk4.4
+croot
+cd hardware/qcom/camera
+git push origin kk4.4
 
 # Kernel
 croot

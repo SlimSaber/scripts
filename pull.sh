@@ -170,6 +170,12 @@ croot
 cd hardware/ril
 git pull upstream cm-11.0
 #git pull linaro linaro_android_4.4.2
+croot
+cd hardware/qcom/audio
+git pull upstream kk4.4
+croot
+cd hardware/qcom/camera
+git pull upstream kk4.4
 
 # Kernel
 #croot

@@ -225,6 +225,14 @@ cd hardware/ril
 git remote add origin git@github.com:SlimSaber/hardware_ril
 git remote add upstream https://github.com/CyanogenMod/android_hardware_ril.git
 git remote add linaro http://android.git.linaro.org/git-ro/platform/hardware/ril.git
+croot
+cd hardware/qcom/audio
+git remote add origin git@github.com:SlimSaber/hardware_qcom_audio.git
+git remote add upstream https://github.com/SlimRoms/hardware_qcom_audio.git
+croot
+cd hardware/qcom/camera
+git remote add origin git@github.com:SlimSaber/hardware_qcom_camera.git
+git remote add upstream https://github.com/SlimRoms/hardware_qcom_camera.git
 
 # Kernel
 croot
