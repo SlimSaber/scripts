@@ -7,6 +7,10 @@ git push origin kk4.4
 croot && cd build
 git push origin kk4.4-caf
 
+# External
+croot && cd external/bluetooth/bluedroid/
+git push origin kk4.4-caf
+
 # Device
 croot && cd device/oneplus/bacon/
 git push origin kk4.4
@@ -30,6 +34,8 @@ croot && cd hardware/qcom/media-caf-new/
 git push origin kk4.4
 croot && cd hardware/qcom/display-caf-new/
 git push origin kk4.4
+croot && cd hardware/libhardware
+git push origin kk4.4-caf
 
 # Kernel
 croot
@@ -37,8 +43,10 @@ cd kernel/oneplus/msm8974/
 git push origin kk4.4
 
 # Apps
+croot && cd packages/apps/Bluetooth/
+git push origin kk4.4-caf
 croot && cd packages/apps/PerformanceControl/
-git push origin kk4.4
+git push origin kk4.4-caf
 croot && cd packages/apps/Settings/
 git push origin kk4.4-caf
 croot && cd packages/apps/SlimCenter/
