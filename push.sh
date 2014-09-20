@@ -64,5 +64,9 @@ git push origin kk4.4-caf
 # Vendor
 croot && cd vendor/slim/
 git push origin kk4.4
+croot && cd vendor/oneplus/
+git push origin kk4.4
+croot && cd vendor/oppo/
+git push origin kk4.4
 
 croot
