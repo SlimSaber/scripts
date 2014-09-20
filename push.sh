@@ -9,7 +9,7 @@ git push origin kk4.4-caf
 
 # External
 croot && cd external/bluetooth/bluedroid/
-git push origin kk4.4-caf
+git push origin cm-11.0
 
 # Device
 croot && cd device/oneplus/bacon/
@@ -44,7 +44,7 @@ git push origin kk4.4
 
 # Apps
 croot && cd packages/apps/Bluetooth/
-git push origin kk4.4-caf
+git push origin cm-11.0
 croot && cd packages/apps/PerformanceControl/
 git push origin kk4.4-caf
 croot && cd packages/apps/Settings/
