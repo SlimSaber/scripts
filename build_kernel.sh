@@ -19,6 +19,7 @@ echo -e "${bldblu}Setting up build environment ${txtrst}"
 export USE_CCACHE=1
 /usr/bin/ccache -M 50G
 export BUILDING_RECOVERY=false
+export ENABLE_GRAPHITE=true
 
 echo -e "${bldblu}Cleaning up out folder ${txtrst}"
 make clobber;
