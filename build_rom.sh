@@ -19,7 +19,7 @@ res1=$(date +%s.%N)
 if [ "$SYNC" == "sync" ]
 then
    echo -e "${bldblu}Syncing latest sources ${txtrst}"
-   repo sync -j"$THREADS"
+   repo sync -c -j"$THREADS"
 fi
 
 # Clean out folder
