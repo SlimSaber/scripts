@@ -50,7 +50,7 @@ export ANDROID_FIXUP_COMMON_OUT=true
 
 # Lunch device
 echo -e "${bldblu}Lunching device... ${txtrst}"
-lunch "slim_$DEVICE-userdebug"
+lunch "slim_$DEVICE-poweruser"
 
 # Remove previous build info
 echo -e "${bldblu}Removing previous build.prop ${txtrst}"
