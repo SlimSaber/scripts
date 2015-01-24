@@ -48,9 +48,6 @@ export USE_PREBUILT_CHROMIUM=1
 # Fix common out folder not being a common
 export ANDROID_FIXUP_COMMON_OUT=true
 
-# Allow building Lollipop with Oracle
-export USE_ORACLE_JAVA=true
-
 # Lunch device
 echo -e "${bldblu}Lunching device... ${txtrst}"
 lunch "slim_$DEVICE-userdebug"
