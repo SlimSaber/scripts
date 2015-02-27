@@ -14,11 +14,11 @@ croot && cd platform_manifest/
 git push origin lp5.0-caf
 
 # DEVICE
+croot && cd device/oneplus/bacon/
+git push origin lp5.0
 croot && cd device/oppo/common/
 git push origin lp5.0
 croot && cd device/oppo/msm8974-common/
-git push origin lp5.0
-croot && cd device/oneplus/bacon/
 git push origin lp5.0
 croot && cd device/qcom/common/
 git push origin lp5.0
@@ -26,8 +26,6 @@ git push origin lp5.0
 # EXTERNAL
 croot && cd external/bluetooth/bluedroid/
 git push origin lp5.0-caf
-croot && cd external/dnsmasq/
-git push origin lp5.0
 croot && cd external/fuse/
 git push origin lp5.0
 croot && cd external/iputils/
@@ -54,6 +52,8 @@ croot && cd frameworks/opt/bluetooth/
 git push origin lp5.0-caf
 croot && cd frameworks/opt/net/voip/
 git push origin lp5.0
+croot && cd frameworks/opt/telephony/
+git push origin lp5.0-caf
 croot && cd frameworks/wilhelm/
 git push origin lp5.0
 
@@ -78,17 +78,31 @@ croot && cd packages/apps/Bluetooth
 git push origin lp5.0-caf
 croot && cd packages/apps/BluetoothExt
 git push origin lp5.0-caf
-croot && cd packages/apps/Eleven
+croot && cd packages/apps/Contacts/
+git push origin lp5.0-caf
+croot && cd packages/apps/ContactsCommon/
+git push origin lp5.0-caf
+croot && cd packages/apps/Dialer/
+git push origin lp5.0-caf
+croot && cd packages/apps/Eleven/
 git push origin lp5.0
-croot && cd packages/apps/Email
+croot && cd packages/apps/Email/
 git push origin lp5.0
-croot && cd packages/apps/Exchange
+croot && cd packages/apps/Exchange/
 git push origin lp5.0
-croot && cd packages/apps/PerformanceControl
+croot && cd packages/apps/InCallUI/
+git push origin lp5.0-caf
+croot && cd packages/apps/Mms/
+git push origin lp5.0-caf
+croot && cd packages/apps/PerformanceControl/
 git push origin lp5.0
-croot && cd packages/apps/ScreenRecorder
+croot && cd packages/apps/ScreenRecorder/
 git push origin lp5.0
-croot && cd packages/apps/Settings
+croot && cd packages/apps/Settings/
+git push origin lp5.0-caf
+croot && cd packages/services/Telephony/
+git push origin lp5.0-caf
+croot && cd packages/services/Telecomm/
 git push origin lp5.0-caf
 
 # System
