@@ -6,20 +6,29 @@ txtbld=$(tput bold)             # Bold
 bldblu=${txtbld}$(tput setaf 4) #  blue
 txtrst=$(tput sgr0)             # Reset
 
-CURRENT_DATE=`date +%Y%m%d`
-CUSTOM_DATE="$1"
 rdir=`pwd`
+CURRENT_DATE=`date +%Y%m%d`
+LAST_DATE=`sed -n -e'/ro.build.date.utc/s/^.*=//p' $rdir/last_build.prop`
+CUSTOM_DATE="$1"
 
 # Generate Changelog
 echo -e "${bldblu}Generating Changelog ${txtrst}"
-WORKING_DATE=${CUSTOM_DATE}
+if [ -z "$CUSTOM_DATE" ]; then
+    if [ -z "$LAST_DATE" ]; then
+        WORKING_DATE=`date +%s -d "1 day ago"`
+    else
+        WORKING_DATE=${LAST_DATE}
+    fi
+else
+    WORKING_DATE=${CUSTOM_DATE}
+fi
 
-CHANGELOG="$rdir"/Changelog_${CURRENT_DATE}.txt
+CHANGELOG=$rdir/Changelog_${CURRENT_DATE}.txt
 
 # Remove existing changelog
 file="$CHANGELOG"
 if [ -f "$file" ]; then
-    echo -e "${bldblu}Removing existing Changelog_${CURRENT_DATE}.txt ${txtrst}"
+    echo -e "${bldblu}Removing existing ${CHANGELOG} ${txtrst}"
     rm $CHANGELOG;
 fi
 
