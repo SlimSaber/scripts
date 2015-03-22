@@ -1,15 +1,17 @@
 build_rom.sh
 ---------
 
-	. build_rom.sh i9100 sync 5 clean
+	. build_rom.sh bacon c
 
-Parameter 1: The device tree: i9100 | n7000 | i777
+Parameter 1: The device tree
 
-Parameter 2: Sync or don't sync the source: sync | nosync
+Parameter 2: Build mode: c | r | cr | [leave it empty]
 
-Parameter 3: Number of threads (The number of your cpu processors + 1).
+c = clean build
 
-Parameter 4: Make a clean build: clean | [leave it empty]
+r = tag as a released build
+
+cr = clean build and tag as a released build
 
 
 build_kernel.sh
@@ -31,12 +33,14 @@ Generate changelog since last build:
 	
 Parameter 1: A timestamp in UTC format that you can take from build.prop (ro.build.date.utc)
 
+It can also be empty and it'll take the timestamp from the last_build.prop
 
-rom_to_device.sh or kernel__to_device.sh
+
+rom_to_device.sh or kernel_to_device.sh
 ---------------------
 
 Send the freshly compiled build (.zip and .md5) to your device:
 
-	. rom_to_device.sh /sdcard/SlimKat
+	. rom_to_device.sh /sdcard/SlimPop
 	
-Parameter 1: Destination path. You can leave this empty and the standard path "/sdcard/SlimKat" will be used
+Parameter 1: Destination path. You can leave this empty and the standard path "/sdcard/SlimPop" will be used
