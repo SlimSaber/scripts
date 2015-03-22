@@ -22,6 +22,14 @@ croot && cd device/oppo/msm8974-common/
 git push origin lp5.0
 croot && cd device/qcom/common/
 git push origin lp5.0
+croot && cd device/sony/common/
+git push origin lp5.0
+croot && cd device/sony/msm8974-common/
+git push origin lp5.0
+croot && cd device/sony/rhine-common/
+git push origin lp5.0
+croot && cd device/sony/togari/
+git push origin lp5.0
 
 # EXTERNAL
 croot && cd external/bluetooth/bluedroid/
@@ -37,6 +45,8 @@ git push origin lp5.0
 croot && cd external/skia/
 git push origin lp5.0-caf
 croot && cd external/stlport/
+git push origin lp5.0
+croot && cd external/sqlite/
 git push origin lp5.0
 
 # Frameworks
@@ -72,6 +82,8 @@ git push origin lp5.0-caf-8974
 # Kernel
 croot && cd kernel/oneplus/msm8974
 git push origin lp5.0
+croot && cd kernel/sony/msm8974
+git push origin lp5.0
 
 # Apps
 croot && cd packages/apps/Bluetooth
@@ -94,12 +106,20 @@ croot && cd packages/apps/InCallUI/
 git push origin lp5.0-caf
 croot && cd packages/apps/Mms/
 git push origin lp5.0-caf
+croot && cd packages/apps/PackageInstaller/
+git push origin lp5.0
 croot && cd packages/apps/PerformanceControl/
 git push origin lp5.0
 croot && cd packages/apps/ScreenRecorder/
 git push origin lp5.0
 croot && cd packages/apps/Settings/
 git push origin lp5.0-caf
+croot && cd packages/apps/SlimCenter/
+git push origin lp5.0
+croot && cd packages/apps/UnifiedEmail/
+git push origin lp5.0
+croot && cd packages/providers/MediaProvider/
+git push origin lp5.0
 croot && cd packages/services/Telephony/
 git push origin lp5.0-caf
 croot && cd packages/services/Telecomm/
@@ -117,6 +137,8 @@ git push origin lp5.0-caf
 croot && cd vendor/oneplus/
 git push origin lp5.0
 croot && cd vendor/oppo/
+git push origin lp5.0
+croot && cd vendor/sony/
 git push origin lp5.0
 croot && cd vendor/slim/
 git push origin lp5.0
