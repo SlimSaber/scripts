@@ -8,27 +8,24 @@ bldblu=${txtbld}$(tput setaf 4) #  blue
 txtrst=$(tput sgr0)             # Reset
 
 DEVICE="$1"
-SYNC="$2"
-THREADS="$3"
-CLEAN="$4"
+MODE="$2"
 
 # Time of build startup
 res1=$(date +%s.%N)
 
-# Sync with latest sources
-if [ "$SYNC" == "sync" ]
-then
-   echo -e "${bldblu}Syncing latest sources ${txtrst}"
-   repo sync -c -j"$THREADS"
-fi
+# Reading mode
+if [ ! -z $MODE ]; then
+    if [ $MODE == "r" ] || [ $MODE == "cr" ]; then
+        echo -e "${bldblu}Set release build flag ${txtrst}"
+        export IS_RELEASED_BUILD=true
+    else
+        export IS_RELEASED_BUILD=
+    fi
 
-# Clean out folder
-if [ "$CLEAN" == "clean" ]
-then
-   echo -e "${bldblu}Cleaning up out folder ${txtrst}"
-   make clobber;
-else
-  echo -e "${bldblu}Skipping out folder cleanup ${txtrst}"
+    if [ $MODE == "c" ] || [ $MODE == "cr" ]; then
+       echo -e "${bldblu}Cleaning up out folder ${txtrst}"
+       make clobber;
+    fi
 fi
 
 # Setup environment
@@ -58,7 +55,7 @@ rm $OUT/system/build.prop;
 
 # Start compilation
 echo -e "${bldblu}Starting build for $DEVICE ${txtrst}"
-make -j"$THREADS" bacon
+mka bacon
 
 # Get elapsed time
 res2=$(date +%s.%N)
