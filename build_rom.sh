@@ -26,6 +26,8 @@ if [ ! -z $MODE ]; then
        echo -e "${bldblu}Cleaning up out folder ${txtrst}"
        make clobber;
     fi
+else
+    export IS_RELEASED_BUILD=
 fi
 
 # Setup environment
