@@ -14,8 +14,6 @@ if [ -z "$DESTPATH" ]; then
 fi
 
 adb=$(which adb)
-$adb kill-server
-sudo $adb start-server
 echo -e "${cya}Waiting for device... ${txtrst}"
 $adb wait-for-device
 
