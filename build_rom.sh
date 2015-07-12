@@ -33,6 +33,7 @@ fi
 # Setup environment
 echo -e "${bldblu}Setting up build environment ${txtrst}"
 . build/envsetup.sh
+unset _JAVA_OPTIONS JAVA_TOOL_OPTIONS
 
 # Setup ccache
 export USE_CCACHE=1
