@@ -37,6 +37,7 @@ unset _JAVA_OPTIONS JAVA_TOOL_OPTIONS
 
 # Setup ccache
 export USE_CCACHE=1
+export USE_SYSTEM_CCACHE=1
 /usr/bin/ccache -M 50G
 
 # For building recovery
