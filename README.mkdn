@@ -17,11 +17,11 @@ cr = clean build and tag as a released build
 build_kernel.sh
 ----------------
 
-	. build_kernel.sh i9100 5
+	. build_kernel.sh bacon c
 
-Parameter 1: The device tree: i9100 | n7000 | i777
+Parameter 1: The device tree
 
-Parameter 2: Number of threads (The number of your cpu processors + 1).
+Parameter 2: Build mode: c | [leave it empty]
 
 
 generate_changelog.sh

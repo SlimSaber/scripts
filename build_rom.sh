@@ -19,7 +19,8 @@ if [ ! -z $MODE ]; then
         echo -e "${bldblu}Set release build flag ${txtrst}"
         export IS_RELEASED_BUILD=true
     else
-        export IS_RELEASED_BUILD=
+        echo -e "${bldblu}Unset release build flag ${txtrst}"
+        unset IS_RELEASED_BUILD
     fi
 
     if [ $MODE == "c" ] || [ $MODE == "cr" ]; then
@@ -27,7 +28,8 @@ if [ ! -z $MODE ]; then
        make clobber;
     fi
 else
-    export IS_RELEASED_BUILD=
+    echo -e "${bldblu}Unset release build flag ${txtrst}"
+    unset IS_RELEASED_BUILD
 fi
 
 # Setup environment
@@ -37,7 +39,6 @@ unset _JAVA_OPTIONS JAVA_TOOL_OPTIONS
 
 # Setup ccache
 export USE_CCACHE=1
-export USE_SYSTEM_CCACHE=1
 /usr/bin/ccache -M 50G
 
 # For building recovery

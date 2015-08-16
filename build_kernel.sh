@@ -8,21 +8,22 @@ bldblu=${txtbld}$(tput setaf 4) #  blue
 txtrst=$(tput sgr0)             # Reset
 
 DEVICE="$1"
-THREADS="$2"
+MODE="$2"
 
 # Time of build startup
 res1=$(date +%s.%N)
+
+# Reading mode
+if [ $MODE == "c" ]; then
+   echo -e "${bldblu}Cleaning up out folder ${txtrst}"
+   make clobber;
+fi
 
 # Setup environment
 echo -e "${bldblu}Setting up build environment ${txtrst}"
 . build/envsetup.sh
 export USE_CCACHE=1
 /usr/bin/ccache -M 50G
-export BUILDING_RECOVERY=false
-export ENABLE_GRAPHITE=true
-
-echo -e "${bldblu}Cleaning up out folder ${txtrst}"
-make clobber;
 
 # Lunch device
 echo -e "${bldblu}Lunching device... ${txtrst}"
@@ -30,7 +31,7 @@ lunch "slim_$DEVICE-userdebug"
 
 # Start compilation
 echo -e "${bldblu}Starting build kernel for $DEVICE ${txtrst}"
-make -j"$THREADS" bootzip
+mka bootzip
 
 # Get elapsed time
 res2=$(date +%s.%N)
